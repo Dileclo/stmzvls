@@ -19,5 +19,10 @@ export const MENU = [
         link: '/orders',
         icon: 'akar-icons:shipping-box-02'
     },
+    {
+        title: "Календарь",
+        link: '/calendar',
+        icon: 'akar-icons:calendar'
+    },
 
 ]

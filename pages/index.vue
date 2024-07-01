@@ -3,6 +3,6 @@
 
 <template>
     <div>
-        <UIPageTitle title="Главная"></UIPageTitle>
+        <UIPageTitle title="Главная" class="mb-5"></UIPageTitle>
     </div>
 </template>

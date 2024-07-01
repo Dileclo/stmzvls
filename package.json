@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -13,6 +13,7 @@
     "@nuxt/ui": "^2.17.0",
     "@radix-icons/vue": "^1.0.0",
     "@tanstack/vue-table": "^8.17.3",
+    "@vee-validate/nuxt": "^4.13.1",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -27,10 +28,13 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-inline-calendar": "^1.0.0",
+    "vue-router": "^4.3.2",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",
+    "concurrently": "^8.2.2",
     "nuxt-icon": "^0.6.10",
     "nuxt-primevue": "^3.0.0",
     "typescript": "^5.4.5"
